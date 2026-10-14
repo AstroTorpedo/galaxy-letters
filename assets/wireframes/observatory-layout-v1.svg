@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+  <title>星系观测台界面草图 v1</title>
+  <desc>用于比较信息布局的静态草图。光学图、HI图、谱线与滑块均为占位，非实际观测或已实现交互。</desc>
+  <defs>
+    <style>
+      text { font-family: 'PingFang SC', 'Heiti SC', sans-serif; fill: #253448; }
+      .title { font-size: 28px; font-weight: 600; }
+      .label { font-size: 22px; font-weight: 600; }
+      .body { font-size: 20px; }
+      .small { font-size: 17px; fill: #64748b; }
+      .muted { fill: #718096; }
+      .panel { fill: #fff; stroke: #cbd5e1; stroke-width: 2; }
+      .placeholder { fill: #eef2f6; stroke: #b2bdca; stroke-width: 2; stroke-dasharray: 7 6; }
+    </style>
+  </defs>
+  <rect width="1600" height="900" fill="#f3f5f7"/>
+  <rect x="32" y="24" width="1536" height="82" rx="18" fill="#1f334b"/>
+  <text x="60" y="73" class="title" style="fill:#fff">21厘米 · 星系观测台</text>
+  <text x="530" y="72" class="body" style="fill:#dce5ee">01 看见气体 → 02 读出运动 → 03 追踪去向</text>
+  <rect x="1366" y="42" width="166" height="45" rx="10" fill="#f3f5f7"/>
+  <text x="1449" y="72" text-anchor="middle" class="body">观测手册</text>
+
+  <rect x="32" y="128" width="538" height="510" rx="18" class="panel"/>
+  <text x="58" y="168" class="label">观测视图</text>
+  <rect x="58" y="190" width="224" height="44" rx="9" fill="#dbe8ee"/>
+  <rect x="298" y="190" width="244" height="44" rx="9" fill="#f1f3f5"/>
+  <text x="170" y="219" class="body" text-anchor="middle">光学档案</text>
+  <text x="420" y="219" class="body" text-anchor="middle">HI 射电档案</text>
+  <rect x="58" y="250" width="484" height="292" rx="12" class="placeholder"/>
+  <ellipse cx="300" cy="376" rx="130" ry="70" fill="#d5dee8"/>
+  <ellipse cx="300" cy="376" rx="85" ry="44" fill="#b9c9d9"/>
+  <ellipse cx="300" cy="376" rx="28" ry="24" fill="#9eb3c7"/>
+  <text x="300" y="509" text-anchor="middle" class="small">目标图像 / 盘示意占位 · 非观测</text>
+  <text x="58" y="581" class="body">切换观测方式，标记感兴趣的区域</text>
+  <text x="58" y="614" class="small">显示视野、数据类型和必要图例</text>
+
+  <rect x="590" y="128" width="978" height="510" rx="18" class="panel"/>
+  <text x="618" y="168" class="label">数据与模型</text>
+  <text x="1528" y="168" text-anchor="end" class="small">按案件切换：观测对照 / 谱线 / 速度线索</text>
+  <rect x="650" y="198" width="870" height="256" rx="12" class="placeholder"/>
+  <path d="M 704 218 V 416 H 1488" fill="none" stroke="#8593a6" stroke-width="2"/>
+  <text x="1088" y="306" text-anchor="middle" class="label muted">科学数据展示区域</text>
+  <text x="1088" y="346" text-anchor="middle" class="body muted">实际曲线由数据与模型绘制</text>
+  <text x="1088" y="394" text-anchor="middle" class="small">此处只示意坐标布局，没有绘制观测曲线</text>
+  <text x="1088" y="445" text-anchor="middle" class="small">相对系统速度 / km s⁻¹</text>
+  <text x="679" y="320" class="small" text-anchor="middle" transform="rotate(-90 679 320)">相对强度（归一化）</text>
+  <text x="618" y="498" class="body">旋转速度</text>
+  <line x1="806" y1="489" x2="1308" y2="489" stroke="#c8d2dd" stroke-width="9" stroke-linecap="round"/>
+  <circle cx="1050" cy="489" r="13" fill="#4e7189"/>
+  <text x="1344" y="497" class="small">数值 / km s⁻¹</text>
+  <text x="618" y="551" class="body">观察倾角</text>
+  <line x1="806" y1="542" x2="1308" y2="542" stroke="#c8d2dd" stroke-width="9" stroke-linecap="round"/>
+  <circle cx="920" cy="542" r="13" fill="#4e7189"/>
+  <text x="1344" y="550" class="small">数值 / °</text>
+  <text x="618" y="603" class="small">先观察变化，再比较解释；需要时展开单位与模型假设</text>
+
+  <rect x="32" y="658" width="1536" height="92" rx="16" class="panel"/>
+  <text x="58" y="699" class="label">证据夹</text>
+  <text x="58" y="731" class="small">可以回看</text>
+  <rect x="212" y="675" width="392" height="58" rx="10" class="placeholder"/>
+  <rect x="622" y="675" width="392" height="58" rx="10" class="placeholder"/>
+  <rect x="1032" y="675" width="508" height="58" rx="10" class="placeholder"/>
+  <text x="408" y="711" class="body muted" text-anchor="middle">观测线索</text>
+  <text x="818" y="711" class="body muted" text-anchor="middle">模型解释</text>
+  <text x="1286" y="711" class="body muted" text-anchor="middle">补充证据 / 仍需调查的问题</text>
+
+  <rect x="32" y="770" width="1536" height="92" rx="16" fill="#e2eaf0"/>
+  <text x="58" y="808" class="label">当前任务：用一句话说明下一项动作</text>
+  <text x="58" y="840" class="small">示例：切换到 HI 档案，寻找光学星光之外的线索</text>
+  <rect x="1204" y="791" width="130" height="48" rx="10" fill="#fff"/>
+  <text x="1269" y="822" text-anchor="middle" class="body">查看提示</text>
+  <rect x="1350" y="791" width="190" height="48" rx="10" fill="#1f334b"/>
+  <text x="1445" y="822" text-anchor="middle" class="body" style="fill:#fff">整理我的解释</text>
+  <text x="32" y="890" class="small">布局草图 v1 · 静态占位，非实际观测、非可玩原型 · 角色和画风另由概念图探索</text>
+</svg>

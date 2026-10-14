@@ -1,0 +1,22 @@
+{
+  "name": "galaxy-letters",
+  "version": "0.1.0",
+  "private": true,
+  "description": "21厘米：星系来信 — 双目标射电观测与星系探索试玩",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1 --port 4173",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview --host 127.0.0.1 --port 4174",
+    "test": "tsx --test tests/*.test.ts",
+    "package:desktop": "node scripts/package-desktop.mjs",
+    "package:web": "node scripts/package-web.mjs"
+  },
+  "dependencies": { "phaser": "3.90.0" },
+  "devDependencies": {
+    "@electron/packager": "20.3.0",
+    "tsx": "4.23.15",
+    "typescript": "7.0.2",
+    "vite": "8.3.4"
+  }
+}

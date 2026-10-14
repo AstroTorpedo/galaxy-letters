@@ -1,0 +1,9 @@
+node_modules/
+dist/
+release/
+.DS_Store
+*.log
+artifacts/qa/*.json
+artifacts/qa/*.txt
+.research/
+data/raw/

@@ -1,0 +1,11 @@
+{
+  "character": "林岚 / Lin Lan",
+  "version": 1,
+  "date": "2026-10-14",
+  "tool": "built-in image_gen.imagegen",
+  "useCase": "illustration-story",
+  "transparentBackground": true,
+  "asset": "assets/characters/lin-lan-v1.png",
+  "prompt": "Use case: illustration-story. Asset type: original half-body dialogue character portrait for a warm radio-astronomy educational game. Subject: Lin Lan, a fictional Chinese woman astronomer in her early thirties, a calm capable night-shift colleague, with a thoughtful approachable expression and a hint of tiredness from observing overnight. Appearance: dark brown hair loosely tied low, a few natural loose strands, thin round glasses, deep muted teal practical work jacket over an ivory knit sweater, sleeves slightly rolled, a pencil and a small plain paper observation notebook held naturally. Medium: refined hand-painted narrative-game illustration, softly textured brushwork, believable anatomy, clear facial features, understated elegant shapes, warm amber lamplight and subdued teal shadows, matching a cozy observatory with cream archive cards. Framing: one person only, waist-up, face directed toward the player, entire head, shoulders, elbows and notebook inside the frame with generous clean margins. Transparent background, clean cutout edges and actual alpha; no room, no decorative frame, no UI, no written words, no labels, no logos, no watermark. Professional astronomer rather than fantasy space armor or a white lab coat; natural proportions, no chibi style, no exaggerated anime eyes. This must be an original fictional person, not a depiction of a real individual.",
+  "status": "Generated and visually inspected; fictional character, no real-person reference."
+}

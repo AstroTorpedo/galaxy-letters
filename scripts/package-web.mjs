@@ -1,0 +1,12 @@
+import { readFile, mkdir, rm } from 'node:fs/promises';
+import { execFileSync } from 'node:child_process';
+import { fileURLToPath } from 'node:url';
+import path from 'node:path';
+const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
+const { version } = JSON.parse(await readFile(path.join(root, 'package.json'), 'utf8'));
+await readFile(path.join(root, 'dist/index.html'));
+await mkdir(path.join(root, 'release'), { recursive: true });
+const destination = path.join(root, 'release', `GalaxyLetters-${version}-HTML5.zip`);
+await rm(destination, { force: true });
+execFileSync('zip', ['-q', '-r', destination, '.'], { cwd: path.join(root, 'dist'), stdio: 'inherit' });
+console.log(`Created ${destination}`);
