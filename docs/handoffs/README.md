@@ -4,11 +4,11 @@
 
 ## 最新记录
 
-[2026-10-14-024：创建 AstroTorpedo 游戏仓库](2026-10-14-024-github-repository.md)
+[2026-10-14-026：GitHub Pages 网页试玩上线](2026-10-14-026-github-pages-live.md)
 
-当前状态：用户选择 AstroTorpedo，要求网页发布。公开仓库 [AstroTorpedo/galaxy-letters](https://github.com/AstroTorpedo/galaxy-letters) 已通过网页创建，默认 main，当前仍为空；上传与 Pages 部署进行中。桌面打包仍暂停。
+当前状态：[AstroTorpedo/galaxy-letters](https://github.com/AstroTorpedo/galaxy-letters) 源码与 [在线试玩](https://astrotorpedo.github.io/galaxy-letters/) 已通过 GitHub 网页发布。云端 26 项测试、生产构建、完整分卷校验与 Pages 部署成功；线上角色、双样本、谱 / PV、孔径及线性通道基本检查通过，错误日志为空。桌面打包仍暂停。
 
-下一步：上传源码与模拟数据，网页启用 Pages / Actions，验证线上试玩。
+下一步：用户线上试玩并反馈，继续改进故事、任务与教程；M33 恢复后接入实测数据。
 
 ## 记录列表
 
@@ -38,10 +38,10 @@
 | [2026-10-14-020-campaign-foundation.md](2026-10-14-020-campaign-foundation.md) | 两目标来源、任务、迁移、对话内容与可恢复重置 | 逻辑完成，UI 接入中 |
 | [2026-10-14-021-campaign-interface.md](2026-10-14-021-campaign-interface.md) | 林岚互动、目标选择、任务与教程、reset / 恢复界面 | 实现完成，浏览器验收中 |
 | [2026-10-14-022-campaign-qa.md](2026-10-14-022-campaign-qa.md) | 双目标全流程、剧情结局、重置 / 恢复与上下文帮助验收 | 完成，供用户试玩 |
-
 | [2026-10-14-023-pages-preparation.md](2026-10-14-023-pages-preparation.md) | GitHub 授权、网页入口、自动部署与发布资料准备 | 准备完成，待账号归属 |
-
 | [2026-10-14-024-github-repository.md](2026-10-14-024-github-repository.md) | 按指定身份通过 GitHub 网页创建公开项目仓库 | 仓库创建完成，上传中 |
+| [2026-10-14-025-web-upload-progress.md](2026-10-14-025-web-upload-progress.md) | 网页 README / Pages / 工作流，记录分卷未提交及首次构建失败 | 部分完成，重传中 |
+| [2026-10-14-026-github-pages-live.md](2026-10-14-026-github-pages-live.md) | 网页分批上传、目录还原、云端测试 / 构建 / 部署与线上验收 | 已上线 |
 
 ## 使用方法
 
