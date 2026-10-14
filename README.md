@@ -2,6 +2,8 @@
 
 温暖的射电观测室：选择两个模拟星系，与林岚交接、学习观测，为运动对照和盘外弱线留下可复查证据。
 
+**[在线试玩 →](https://astrotorpedo.github.io/galaxy-letters/)** · [GitHub 源码](https://github.com/AstroTorpedo/galaxy-letters)
+
 当前为双目标故事试玩版。网站首页直接进入观测室；也可访问 `explore.html` 自由探索，或 `legacy.html` 查看旧版三案。GitHub 与 GitHub Pages 网页发布已获用户授权，桌面打包暂缓。
 
 最新版支持 GX-03「归航」与 GX-07「回波」分别实际观测，林岚有立绘、往事 / 方法 / 下一步对话与阶段回应。任务卡根据观测和保存的测量推进，最终提交双目标报告。引导可关闭 / 重看，孔径和 PV 旁可直接向她提问。
@@ -46,7 +48,7 @@ python3 scripts/check-cubes.py
 
 ## 网页发布
 
-源码仓库：[AstroTorpedo/galaxy-letters](https://github.com/AstroTorpedo/galaxy-letters)。当前正在首次部署，实际上线结果以 handoff 为准。
+源码仓库：[AstroTorpedo/galaxy-letters](https://github.com/AstroTorpedo/galaxy-letters)。GitHub Pages 已上线：[开始试玩](https://astrotorpedo.github.io/galaxy-letters/)。首次线上构建 26 项测试通过，具体检查见[最新 handoff](docs/handoffs/README.md)。
 
 推送到 `main` 后，GitHub Actions 安装锁定依赖、运行测试、构建并部署 `dist/` 到 GitHub Pages。纯文档 / QA 截图改动不触发部署，也可从 Actions 手动运行。配置和复现方法见[部署说明](docs/DEPLOYMENT.md)。
 
